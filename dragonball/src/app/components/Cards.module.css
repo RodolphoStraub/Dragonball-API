@@ -1,0 +1,19 @@
+.all {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cards img {
+  width: 250px;
+  height: 350px;
+}
