@@ -1,5 +1,6 @@
 import styles from "./Cards.module.css";
 import Link from "next/link";
+import Navbar from "./Navbar";
 
 export default async function Cards() {
   const response = await fetch(
@@ -11,9 +12,6 @@ export default async function Cards() {
 
   return (
     <div className={styles.all}>
-      <div className={styles.nav}>
-        <h1>Dragon Ball Z</h1>
-      </div>
       <div className={styles.cards}>
         {personagens.map((personagem) => (
           <div className={styles.inner_cards} key={personagem.id}>
