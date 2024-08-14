@@ -19,10 +19,10 @@ export default async function Cards() {
           <div className={styles.inner_cards} key={personagem.id}>
             <img src={personagem.image} alt={personagem.name} />
             <h1>
-              Nome: <br/> <span className={styles.name_color}>{personagem.name}</span>
+              Nome: <span className={styles.name_color}>{personagem.name}</span>
             </h1>
             <h2>
-              Raça: <br/> <span className={styles.name_color}>{personagem.race}</span>
+              Raça: <span className={styles.name_color}>{personagem.race}</span>
             </h2>
             <Link
               className={styles.button}
