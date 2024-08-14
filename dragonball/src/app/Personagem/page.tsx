@@ -1,15 +1,5 @@
-import type { Metadata } from "next";
-import Personagem from "./[PersonagemName]";
-
-
-export const metadata: Metadata = {
-    title: "Personagens",
-  };
-
-  export default function Page(){
+export default function Personagem(){
     return(
-        <>
-        <Personagem/>
-        </>
+        <><h1>test</h1></>
     )
-  }
+}
