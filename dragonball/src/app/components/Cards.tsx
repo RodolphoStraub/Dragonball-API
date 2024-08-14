@@ -1,6 +1,7 @@
 import styles from "./Cards.module.css";
 import Link from "next/link";
-import Navbar from "./Navbar";
+
+import { useRouter } from "next/navigation";
 
 export default async function Cards() {
   const response = await fetch(
@@ -24,7 +25,7 @@ export default async function Cards() {
             </h2>
             <Link
               className={styles.button}
-              href={`/personagem/${personagem.name}`}
+              href={`/Personagem/${personagem.name}`}
             >
               Detalhes
             </Link>
