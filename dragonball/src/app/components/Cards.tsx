@@ -1,15 +1,10 @@
+import useCharacters from "@/UseCharacters";
 import styles from "./Cards.module.css";
 import Link from "next/link";
 
-import { useRouter } from "next/navigation";
-
 export default async function Cards() {
-  const response = await fetch(
-    "https://dragonball-api.com/api/characters?limit=58"
-  );
 
-  const resultado = await response.json();
-  const personagens = resultado.items;
+  const personagens = await useCharacters();
 
   return (
     <div className={styles.all}>

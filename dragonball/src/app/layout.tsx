@@ -23,7 +23,7 @@ export default function RootLayout({
           <link rel="shortcut icon" href="/icon.ico" />
         </head>
         <body className={inter.className}>
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
         </body>
       </html>
