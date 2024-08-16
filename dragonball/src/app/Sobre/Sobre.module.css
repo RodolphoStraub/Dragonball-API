@@ -1,0 +1,21 @@
+.all {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.sub_all {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  align-items: center;
+}
+
+.sub_all img {
+  width: 60%;
+  height: auto;
+}
+
+.sub_all p {
+  text-align: justify;
+  margin-top: 50px;
+}

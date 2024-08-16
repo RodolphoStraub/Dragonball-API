@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 
 import "./components/Navbar.module.css";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +24,9 @@ export default function RootLayout({
           <link rel="shortcut icon" href="/icon.ico" />
         </head>
         <body className={inter.className}>
-          {/* <Navbar /> */}
+          <Navbar />
           {children}
+          <Footer/>
         </body>
       </html>
     </>
