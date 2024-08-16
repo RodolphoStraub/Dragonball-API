@@ -9,7 +9,7 @@ export default async function Personagem({
 }) {
   const personagens = await useCharacters();
 
-  const personagem = personagens.find((p) => p.name === params.PersonagemName);
+  const personagem = personagens.find((p) => p.name === params.PersonagemName.replaceAll('%20',' '));
 
   if (!personagem) {
     return <p>Personagem não encontrado</p>;
