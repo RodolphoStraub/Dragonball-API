@@ -3,11 +3,11 @@ import useCharacters from "@/UseCharacters";
 import styles from "./Personagem.module.css";
 
 export async function generateStaticParams() {
-  const posts = await fetch('https://dragonball-api.com/api/characters?limit=58').then((res) => res.json())
- 
-  return posts.map((post) => ({
-    slug: post.slug,
-  }))
+  const personagens = await fetch(
+    "https://dragonball-api.com/api/characters?limit=58"
+  ).then((res) => res.json());
+
+  return personagens;
 }
 
 export default async function Personagem({
@@ -17,7 +17,9 @@ export default async function Personagem({
 }) {
   const personagens = await useCharacters();
 
-  const personagem = personagens.find((p) => p.name === params.PersonagemName.replaceAll('%20',' '));
+  const personagem = personagens.find(
+    (p) => p.name === params.PersonagemName.replaceAll("%20", " ")
+  );
 
   if (!personagem) {
     return <p>Personagem não encontrado</p>;

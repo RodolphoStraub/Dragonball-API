@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/Personagem/[PersonagemName]/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Personagem/[PersonagemName]/page.css",
-      "static/chunks/app/Personagem/[PersonagemName]/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -12,17 +12,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/Personagem/[PersonagemName]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/chunks/app/Personagem/[PersonagemName]/page.js",
+      "static/css/app/Personagem/[PersonagemName]/page.css"
     ],
-    "/Sobre/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Sobre/page.css",
-      "static/chunks/app/Sobre/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
