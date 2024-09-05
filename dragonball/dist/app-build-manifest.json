@@ -15,13 +15,8 @@
     "/Personagem/[PersonagemName]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Personagem/[PersonagemName]/page.js",
-      "static/css/app/Personagem/[PersonagemName]/page.css"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/Personagem/[PersonagemName]/page.css",
+      "static/chunks/app/Personagem/[PersonagemName]/page.js"
     ]
   }
 }
