@@ -14,7 +14,7 @@ export async function generateStaticParams() {
     const characters: Character[] = data.items;
 
     return characters.map((character) => ({
-      PersonagemName: character.name.replaceAll(" ","%20")
+      PersonagemName: encodeURI(character.name)
     }));
   } catch (error) {
     console.error("Erro ao gerar parâmetros estáticos:", error);
@@ -39,7 +39,7 @@ export default async function Personagem({ params }: PersonagemProps) {
       throw new Error("Dados da API no formato inesperado.");
     }
 
-    const character = data.items.find((char: Character) => char.name === PersonagemName);
+    const character = data.items.find((char: Character) => char.name === decodeURI(PersonagemName));
 
     if (!character) {
       return <p>Personagem não encontrado</p>;

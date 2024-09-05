@@ -20,7 +20,7 @@ export default async function Cards() {
             </h2>
             <Link
               className={styles.button}
-              href={`/Personagem/${personagem.name}`}
+              href={`/Personagem/${encodeURI(personagem.name)}`}
             >
               Detalhes
             </Link>
