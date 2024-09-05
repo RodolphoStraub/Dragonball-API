@@ -2,6 +2,14 @@ import useCharacters from "@/UseCharacters";
 
 import styles from "./Personagem.module.css";
 
+export async function generateStaticParams() {
+  const posts = await fetch('https://dragonball-api.com/api/characters?limit=58').then((res) => res.json())
+ 
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
+}
+
 export default async function Personagem({
   params,
 }: {
