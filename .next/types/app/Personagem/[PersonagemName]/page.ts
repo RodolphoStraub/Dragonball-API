@@ -1,4 +1,4 @@
-// File: C:\Users\rodol\OneDrive\Área de Trabalho\Rodolpho\programação\Projetos\Dragonball\dragonball\src\app\Personagem\[PersonagemName]\page.tsx
+// File: C:\Users\rodol\OneDrive\Área de Trabalho\Rodolpho\programação\Projetos\Dragonball\src\app\Personagem\[PersonagemName]\page.tsx
 import * as entry from '../../../../../src/app/Personagem/[PersonagemName]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
