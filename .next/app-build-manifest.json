@@ -1,14 +1,14 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/webpack-424a3a793f297469.js",
+      "static/chunks/webpack-8c000aa3b92177c5.js",
       "static/chunks/fd9d1056-2821b0f0cabcd8bd.js",
       "static/chunks/23-8d8d872455c474da.js",
       "static/chunks/main-app-236030a0bde8b7b2.js",
       "static/chunks/app/_not-found/page-05886c10710171db.js"
     ],
     "/layout": [
-      "static/chunks/webpack-424a3a793f297469.js",
+      "static/chunks/webpack-8c000aa3b92177c5.js",
       "static/chunks/fd9d1056-2821b0f0cabcd8bd.js",
       "static/chunks/23-8d8d872455c474da.js",
       "static/chunks/main-app-236030a0bde8b7b2.js",
@@ -18,14 +18,14 @@
       "static/chunks/app/layout-ef6ffecb4d06cf0d.js"
     ],
     "/Personagem/page": [
-      "static/chunks/webpack-424a3a793f297469.js",
+      "static/chunks/webpack-8c000aa3b92177c5.js",
       "static/chunks/fd9d1056-2821b0f0cabcd8bd.js",
       "static/chunks/23-8d8d872455c474da.js",
       "static/chunks/main-app-236030a0bde8b7b2.js",
       "static/chunks/app/Personagem/page-5d4f87761929757e.js"
     ],
     "/page": [
-      "static/chunks/webpack-424a3a793f297469.js",
+      "static/chunks/webpack-8c000aa3b92177c5.js",
       "static/chunks/fd9d1056-2821b0f0cabcd8bd.js",
       "static/chunks/23-8d8d872455c474da.js",
       "static/chunks/main-app-236030a0bde8b7b2.js",
@@ -34,20 +34,20 @@
       "static/chunks/app/page-44d91b2fdb79bb46.js"
     ],
     "/Sobre/page": [
-      "static/chunks/webpack-424a3a793f297469.js",
+      "static/chunks/webpack-8c000aa3b92177c5.js",
       "static/chunks/fd9d1056-2821b0f0cabcd8bd.js",
       "static/chunks/23-8d8d872455c474da.js",
       "static/chunks/main-app-236030a0bde8b7b2.js",
       "static/css/1f14f2f4456715c3.css",
       "static/chunks/app/Sobre/page-39b8e4e834c4b3bc.js"
     ],
-    "/Personagem/[PersonagemName]/page": [
-      "static/chunks/webpack-424a3a793f297469.js",
+    "/Personagem/[id]/page": [
+      "static/chunks/webpack-8c000aa3b92177c5.js",
       "static/chunks/fd9d1056-2821b0f0cabcd8bd.js",
       "static/chunks/23-8d8d872455c474da.js",
       "static/chunks/main-app-236030a0bde8b7b2.js",
-      "static/css/8478943edb0b27b2.css",
-      "static/chunks/app/Personagem/[PersonagemName]/page-5ec6ee1dd63432d2.js"
+      "static/css/62d0d0f2b024cf9c.css",
+      "static/chunks/app/Personagem/[id]/page-362078f43e939c4c.js"
     ]
   }
 }

@@ -12,7 +12,7 @@ export default function Navbar() {
           <Link href="/">
           <Image
             className={styles.logo}
-            src="/dbzlogo.png"
+            src="./dbzlogo.png"
             width={200}
             height={100}
             alt="logo"
